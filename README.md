@@ -1,3 +1,2 @@
 # Link to [Jupyter Notebook preview](http://nbviewer.jupyter.org/github/carmignanivittorio/SocialGraphProject/blob/master/Introduction.ipynb)
-# Link to [Website]
-https://carmignanivittorio.github.io/SocialGraphProject/
+# Link to [Website](https://carmignanivittorio.github.io/SocialGraphProject/)
