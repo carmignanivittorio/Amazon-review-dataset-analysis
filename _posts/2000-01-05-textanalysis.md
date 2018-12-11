@@ -7,12 +7,12 @@ color: white
 ## Text Analysis
 
 
-
-![amazon most common words](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/amazon_cloudword_most_common_word.png)
+![lexical diversity](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/lexical%20diversity.png)
 
 ![body tags](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/body%20tags.png)
 
-![sentiment distribution](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/category%20sentiment%20distribution.png)
+![amazon most common words](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/amazon_cloudword_most_common_word.png)
+
 
 ![baby](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/baby.png)
 
@@ -38,10 +38,6 @@ color: white
 
 ![pc](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/pc.png)
 
-![sentiment headlines](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/sentiment_headlines.png)
-
-![sentiments](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/sentiments.png)
-
 ![shoes](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/shoes.png)
 
 ![sports](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/sports.png)
@@ -61,4 +57,8 @@ color: white
 ![similarity matrix](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/similarity_matrix.png)
 {: .center}
 
-![lexical diversity](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/lexical%20diversity.png)
+![sentiments](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/sentiments.png)
+
+![sentiment distribution](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/category%20sentiment%20distribution.png)
+
+![sentiment headlines](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/sentiment_headlines.png)
