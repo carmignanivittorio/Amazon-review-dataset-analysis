@@ -37,6 +37,7 @@ The 14 columns are :
 </tr>
 </table>
 </div>
+{: .center}
 We decided to use 8 of the 14 columns for our project which are :
 
 1. customer_id
