@@ -23,10 +23,13 @@ The 14 columns are :
 <td>product_title</td>
 <td>product_category</td>
 </tr>
+<tr>
 <td>star_rating</td>
 <td>helpful_votes</td>
 <td>total_votes</td>
 <td>vine</td>
+</tr>
+<tr>
 <td>verified_purchase</td>
 <td>review_headline</td>
 <td>review_body</td>
