@@ -72,3 +72,4 @@ color: white
 ![sentiment distribution](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/category%20sentiment%20distribution.png)
 
 ![sentiment headlines](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/sentiment_headlines.png)
+{: .center}
