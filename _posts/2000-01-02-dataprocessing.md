@@ -40,3 +40,5 @@ We decided to use 8 of the 14 columns for our project which are :
 1. review_date.
 
 <img src="https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/product_category.jpg" alt="Girl in a jacket" width="500" height="600">
+
+![test](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/product_category.jpg)
