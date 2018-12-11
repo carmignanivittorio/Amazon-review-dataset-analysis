@@ -28,7 +28,7 @@ tde 14 columns are :
 <td><li>review_headline</li></td>
 <td><li>review_body</li></td>
 <td><li>review_date</li></td>
-</ol></tr>
+</tr></ol>
 
 We decided to use 8 of tde 14 columns for our project which are :
 
