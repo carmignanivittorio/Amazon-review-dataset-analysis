@@ -46,7 +46,9 @@ color: white
 
 ![shoes](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/shoes.png)
 
+
 ![similarity matrix](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/similarity_matrix.png)
+{: .center}
 
 ![sports](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/sports.png)
 
