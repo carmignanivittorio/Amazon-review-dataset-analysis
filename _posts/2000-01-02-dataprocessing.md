@@ -29,6 +29,7 @@ The 14 columns are :
 
 
 We decided to use 8 of the 14 columns for our project which are :
+
 1. customer_id
 1. product_id
 1. product_title
@@ -37,3 +38,5 @@ We decided to use 8 of the 14 columns for our project which are :
 1. review_headline
 1. review_body
 1. review_date.
+
+![](https://github.com/carmignanivittorio/SocialGraphProject/blob/master/img/product_category.png)
