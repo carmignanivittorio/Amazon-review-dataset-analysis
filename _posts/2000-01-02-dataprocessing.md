@@ -28,7 +28,7 @@ The 14 columns are :
 <td>review_headline</td>
 <td>review_body</td>
 <td>review_date</td>
-<tr>
+</tr>
 </table>
 
 We decided to use 8 of the 14 columns for our project which are :
