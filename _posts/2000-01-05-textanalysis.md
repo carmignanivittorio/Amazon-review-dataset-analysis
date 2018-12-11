@@ -54,6 +54,16 @@ color: white
 
 ![wireless](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/wireless.png)
 
+![1_5](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/1.5_stars.png)
+
+![2_5](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/2.5_stars.png)
+
+![3_5](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/3.5_stars.png)
+
+![4_5](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/4.5_stars.png)
+
+![5_5](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/5.5_stars.png)
+
 ![similarity matrix](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/similarity_matrix.png)
 {: .center}
 
