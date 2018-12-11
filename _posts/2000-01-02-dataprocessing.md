@@ -12,7 +12,7 @@ To help users who want access to their data, Amazon offers their dataset as comp
 The compressed file that we used is 333 Mb. Uncompressed is 840 Mb. The .tsv file contains 1.707.496 millions rows of data and 14 columns. After some processing we deleted some of the rows because they where either empty (NaN) or corrupted.
 The 14 columns are :
 <div>
-<table text-align:"right">
+<table style="width:100%">
 <tr>
 <td>marketplace</td>
 <td>customer_id</td>
@@ -40,6 +40,52 @@ The 14 columns are :
 </table>
 </div>
 {: .left}
+
+<div>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-xldj{border-color:inherit;text-align:left}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-xldj"></th>
+    <th class="tg-xldj"></th>
+    <th class="tg-xldj"></th>
+    <th class="tg-xldj"></th>
+    <th class="tg-xldj"></th>
+  </tr>
+  <tr>
+    <td class="tg-xldj"></td>
+    <td class="tg-xldj"></td>
+    <td class="tg-xldj"></td>
+    <td class="tg-xldj"></td>
+    <td class="tg-xldj"></td>
+  </tr>
+  <tr>
+    <td class="tg-xldj"></td>
+    <td class="tg-xldj"></td>
+    <td class="tg-xldj"></td>
+    <td class="tg-xldj"></td>
+    <td class="tg-xldj"></td>
+  </tr>
+  <tr>
+    <td class="tg-xldj"></td>
+    <td class="tg-xldj"></td>
+    <td class="tg-xldj"></td>
+    <td class="tg-xldj"></td>
+    <td class="tg-xldj"></td>
+  </tr>
+</table>
+
+</div>
+
+
+
+
+
 We decided to use 8 of the 14 columns for our project which are :
 
 1. customer_id
