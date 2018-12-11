@@ -12,22 +12,21 @@ To help users who want access to their data, Amazon offers their dataset as comp
 The compressed file that we used is 333 Mb. Uncompressed is 840 Mb. The .tsv file contains 1.707.496 millions rows of data and 14 columns. After some processing we deleted some of the rows because they where either empty (NaN) or corrupted.
 The 14 columns are :
 
-<tr><th><ol>
-<li>marketplace</li>
-<li>customer_id</li>
-<li>review_id</li>
-<li>product_parent</li>
-<li>product_title</li>
-<li>product_category</li>
-<li>star_rating</li>
-</th>
-<li>helpful_votes</li>
-<li>total_votes</li>
-<li>vine</li>
-<li>verified_purchase</li>
-<li>review_headline</li>
-<li>review_body</li>
-<li>review_date</li>
+<tr><ol>
+<th><li>marketplace</li></th>
+<th><li>customer_id</li></th>
+<th><li>review_id</li></th>
+<th><li>product_parent</li></th>
+<th><li>product_category</li></th>
+<th><li>star_rating</li></th>
+
+<th><li>helpful_votes</li></th>
+<th><li>total_votes</li></th>
+<th><li>vine</li></th>
+<th><li>verified_purchase</li></th>
+<th><li>review_headline</li></th>
+<th><li>review_body</li></th>
+<th><li>review_date</li></th>
 </ol></tr>
 
 We decided to use 8 of the 14 columns for our project which are :
