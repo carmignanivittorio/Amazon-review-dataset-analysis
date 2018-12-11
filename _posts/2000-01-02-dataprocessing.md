@@ -14,11 +14,13 @@ The 14 columns are :
 <div>
 <table style="width:100%">
 <tr>
+<td></td>
 <td>marketplace</td>
 <td>customer_id</td>
 <td>review_id</td>
 </tr>
 <tr>
+<td></td>
 <td>product_parent</td>
 <td>product_title</td>
 <td>product_category</td>
