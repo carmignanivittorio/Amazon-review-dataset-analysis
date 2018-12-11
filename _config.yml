@@ -19,7 +19,7 @@ keywords:    "Social Graph, Amazon, github, dataset, Analysis"
 description: "An analysis of the Amazon Review Dataset"
 source_link: "https://github.com/t413/SinglePaged"
 favicon:     "img/Amazon_favicon.png"
-
+graph1:      "img/product_category.jpg"
 ### template colors, used site-wide via css ###
 colors:
   black:         '#111111'

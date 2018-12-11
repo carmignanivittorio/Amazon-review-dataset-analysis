@@ -39,4 +39,4 @@ We decided to use 8 of the 14 columns for our project which are :
 1. review_body
 1. review_date.
 
-![test image](https://github.com/carmignanivittorio/SocialGraphProject/blob/master/img/product_category.jpg)
+![test image](graph1)
