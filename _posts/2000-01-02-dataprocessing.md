@@ -11,7 +11,8 @@ To help users who want access to their data, Amazon offers their dataset as comp
 
 The compressed file that we used is 333 Mb. Uncompressed is 840 Mb. The .tsv file contains 1.7+ millions rows of data and 14 columns. After some processing we deleted some of the rows because they where either empty (NaN) or corrupted.
 The 14 columns are :
-marketplace
+
+1. marketplace
 1. customer_id
 1. review_id
 1. product_parent
@@ -24,4 +25,15 @@ marketplace
 1. verified_purchase
 1. review_headline
 1. review_body
-We decided to use 8 of the 14 columns for our project which are : customer_id, product_id, product_title, product_category, star_rating, review_headline, review_body, review_date.
+1. review_date
+
+
+We decided to use 8 of the 14 columns for our project which are :
+1. customer_id
+1. product_id
+1. product_title
+1. product_category
+1. star_rating
+1. review_headline
+1. review_body
+1. review_date.
