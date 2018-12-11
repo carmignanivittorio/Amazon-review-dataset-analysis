@@ -10,15 +10,15 @@ color: white
 
 ![amazon most common words](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/amazon_cloudword_most_common_word.png)
 
-![baby](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/baby.png)
-
 ![body tags](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/body%20tags.png)
+
+![sentiment distribution](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/category%20sentiment%20distribution.png)
+
+![baby](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/baby.png)
 
 ![books](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/books.png)
 
 ![camera](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/camera.png)
-
-![sentiment distribution](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/category%20sentiment%20distribution.png)
 
 ![digital_ebooks](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/digital_ebook.png)
 
@@ -29,8 +29,6 @@ color: white
 ![electronics](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/electronics.png)
 
 ![home](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/home.png)
-
-![lexical diversity](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/lexical%20diversity.png)
 
 ![mobile apps](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/mobile_apps.png)
 
@@ -46,10 +44,6 @@ color: white
 
 ![shoes](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/shoes.png)
 
-
-![similarity matrix](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/similarity_matrix.png)
-{: .center}
-
 ![sports](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/sports.png)
 
 ![toys](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/toys.png)
@@ -63,3 +57,8 @@ color: white
 ![watches](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/watches.png)
 
 ![wireless](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/wireless.png)
+
+![similarity matrix](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/similarity_matrix.png)
+{: .center}
+
+![lexical diversity](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/lexical%20diversity.png)
