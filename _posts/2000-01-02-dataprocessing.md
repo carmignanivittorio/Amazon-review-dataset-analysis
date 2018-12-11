@@ -19,7 +19,8 @@ The 14 columns are :
 <th><li>product_parent</li></th>
 <th><li>product_category</li></th>
 <th><li>star_rating</li></th>
-
+</tr>
+<tr>
 <th><li>helpful_votes</li></th>
 <th><li>total_votes</li></th>
 <th><li>vine</li></th>
