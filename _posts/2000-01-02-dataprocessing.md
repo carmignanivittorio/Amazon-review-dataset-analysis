@@ -59,17 +59,20 @@ Because there are many categories in our data-set we decided to exclude some as 
 
 The graph below shows the distribution of the reviews based on the category of the product
 {: .center}
+
 ![product_category_graph](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/product_category.jpg)
 {: .center}
 <br>
 
 This graph shows the Star-Rating of the reviews as seen by the customers
 {: .center}
+
 ![star-rating_graph](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/star_rating.png)
 {: .center}
 <br>
 
 And finally in the graph below we represent a heatmap that takes the Star-Rating and the Categories and finds correlations between those 2.
 {: .center}
+<br>
 ![Correlation between Categories and Star-Rating](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/Correlation%20between%20Categories%20and%20Star-Rating.png)
 {: .center}
