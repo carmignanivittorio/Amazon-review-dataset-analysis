@@ -170,7 +170,7 @@ The matrix does not show really interesting results. Most of the strong relation
 ## Sentimental Analysis
 {: .center}
 
-Here, We will explore the sentiment of the reviews. In order to accomplish this task we are going to use the word list provided by SentiWords ([***Page link***](https://hlt-nlp.fbk.eu/technologies/sentiwords); [***References***](http://hltdistributor.fbk.eu/license.php?licenseId=f99f59c080464addad699f91bd8c190e)). We changed the interval of values from [-1,1] to [0,100].
+Here, We will explore the sentiment of the reviews. In order to accomplish this task we are going to use the word list provided by SentiWords ([***Page link***](https://hlt-nlp.fbk.eu/technologies/sentiwords); [***References***](http://hltdistributor.fbk.eu/license.php?licenseId=f99f59c080464addad699f91bd8c190e)). This list contains **150'000** words (which include collocations). Moreover, We changed the interval of values from [-1,1] to [0,100].
 
 ### Categories vs Star rating
 We want to see if the headline better catches the sentiment of the review comparing with the body, as resulted in tf-idf body vs headline (star rating). We have plotted 2 graphs, which show the same data, to have a more clear overview of the outcomes.
@@ -187,6 +187,8 @@ We want to see if the headline better catches the sentiment of the review compar
 * From both graphs, it is verified the fact that the sentiment grows together with the star rating for all the categories.
 * As we imagined, the headline better catches the sentiment. In fact, the headlines' interval has a range of values approximately doubled respect to the body's one; [48,65] vs [50,59].
 * Another fact worth noticing in the graph is that, the general reviews sentiment is more than 50. Since 50 represents the neutral value, it means that the reviews are almost always "happy" (if "happy" is considered above 50) but they do not exceed. This behaviour could be explained by the fact that people try to be impartial in the process of reviewing. The interesting thing is represented by fact that people are equitable "only" with low rating. In contrast, they are more willing  of writing "happy" words if the products satisfied their need (more stars). This is strange in the sense that, generally, it is easier to "judge".
+* The Baby's reviews with 5 stars seems to be the happiest. This is reasonable, in the sense that the category Baby is the "cuteness" among these categories.
+* In contrast, all the technological equipment (Video, Camera, Video Games, ...) contains sadder reviews in general.
 
 ![categories sentiment distribution](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/categories%20sentiment%20distribution%20new.png)
 {: .center}
