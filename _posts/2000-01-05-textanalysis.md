@@ -1,7 +1,7 @@
 ---
 title: "text analysis"
 bg: '#63BD2F'
-color: white
+color: black
 ---
 
 ## Text Analysis
@@ -170,7 +170,7 @@ The matrix does not show really interesting results. Most of the strong relation
 ## Sentimental Analysis
 {: .center}
 
-Here, We will explore the sentiment of the reviews. In order to accomplish this task we are going to use the word list provided by SentiWords (>[***Page link***](https://hlt-nlp.fbk.eu/technologies/sentiwords); [***References***](http://hltdistributor.fbk.eu/license.php?licenseId=f99f59c080464addad699f91bd8c190e)). We changed the interval of values from [-1,1] to [0,100].
+Here, We will explore the sentiment of the reviews. In order to accomplish this task we are going to use the word list provided by SentiWords ([***Page link***](https://hlt-nlp.fbk.eu/technologies/sentiwords); [***References***](http://hltdistributor.fbk.eu/license.php?licenseId=f99f59c080464addad699f91bd8c190e)). We changed the interval of values from [-1,1] to [0,100].
 
 ### Categories vs Star rating
 We want to see if the headline better catches the sentiment of the review comparing with the body, as resulted in tf-idf body vs headline (star rating). We have plotted 2 graphs, which show the same data, to have a more clear overview of the outcomes.
