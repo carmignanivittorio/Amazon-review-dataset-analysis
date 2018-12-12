@@ -1,7 +1,7 @@
 ---
 title: "Data Processing"
 bg: blue
-color: white
+color: black
 ---
 
 ## Data Processing
