@@ -64,15 +64,26 @@ The network has **6547** nodes and **163697** edges. Below, the degree distribut
 {: .center}
 Looking at the size and the degree distribution, we can observe that there is a large number of edges. This is due to the fact that the original bipartite network is composed of products with 50 reviews. As a matter of fact, the majority of the nodes has degree equal to 49 while the remaining degrees are spread among few customers. This enforces the conclusion of the previous network. Indeed, many customers have degree equal to 49 because they have reviewed only one product.
 {: .letft}
-
+### Connectivity analysis
+In this section, we are interested in finding the centrality properties of the network. To do an accurate study, we will perform four different centrality analysis: degree centrality, closeness centrality, betweenness centrality and eigenvector centralities. By doing this, we want to understand if there are customers more connected than others, as well as if there are some interesting relationship between the most connected and the isolated ones.
+#### Degree centrality
+Looking at this measure, it can be observed that there are many customers which the same degree (49). This is due to the fact that we are considering the subnetwork composed by the product with 50 reviewed. Basically, this analysis corresponds to the degree ones that we have done in the previous section.
+#### Closeness centrality
+{: .letft}
 ![customer closeness](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/CustomerClosenessNetwork.png)
 {: .center}
-
+The former is composed by nodes with a smaller closeness centrality. The latter is characterized by a higher value of closeness centrality. We suppose that the first group represents the customer with few reviews, whereas, the second one gathers the customers with more than one review.
+#### Betweenness connectivity
+{: .letft}
 ![customer betweeness network](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/CustomerBetweennessNetwork.png)
 {: .center}
-
+Looking at the graph as well as at the distribution, it can be observed that the majority of the nodes have a tiny betweenness centrality. Only a few nodes have a remarkable value. This suggests that there are many "isolated" customers which are connected few ones.
+#### Eigenvector centrality
+{: .letft}
 ![customer eigenvector network](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/CustomerEigenvectorNetwork.png)
 {: .center}
+The eigenvector centrality enforces what we have seen in the previous one. In fact, nodes with a higher betweenness have an even higher eigenvector centrality. This is due to nature of the eigenvector centrality.
+{: .letft}
 
 ![customer communities](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/CustomerNetworkCommunities.png)
 {: .center}
