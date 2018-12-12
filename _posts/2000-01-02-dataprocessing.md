@@ -23,7 +23,7 @@ The 14 columns are :
 <td align="left">product_parent</td>
 <td align="left">product_title</td>
 <td align="left">product_category</td>
-<td>vine</td>
+<td align="left">vine</td>
 </tr>
 <tr>
 <td align="left">star_rating</td>
@@ -40,7 +40,6 @@ The 14 columns are :
 </table>
 </div>
 {: .center}
-
 We decided to use 8 of the 14 columns for our project which are :
 
 1. customer_id
