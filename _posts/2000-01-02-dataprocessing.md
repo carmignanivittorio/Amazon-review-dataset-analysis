@@ -28,13 +28,11 @@ We decided to use 8 out of the 15 columns for our project which are :
 1. review_body
 1. review_date.
 
-Since there are 32 categories in our dataset where 12 have less than 1000 reviews (all together they represents the 0.19% of the entire dataset)  
-we decided to exclude them. In the following graphs we show some of the basic statistics we were able to conduct with the data we obtained.
+The original dataset contains 32 categories. Since 12 of them have less than 1000 reviews (all together they represents the 0.19% of the entire dataset), we decided to exclude them. In the following graphs we show some of the basic statistics we were able to conduct with the data we obtained.
 
 <br>
 
-We present here the number of reviews divided by category. As you can see the dataset is not uniform. The largest one, "Video - DVD", has more than 460000 
-reviews while "Shoes" "only" 1718.
+We present here the number of reviews divided by category. As you can see the dataset is not uniform. The largest one, "Video - DVD", has more than 460000 reviews while "Shoes" "only" 1718.
 {: .left}
 
 ![product_category_graph](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/product_category.jpg)
@@ -49,8 +47,7 @@ Most of the reviews tend to get a positive rating and more than one million revi
 {: .center}
 <br>
 
-Finally, an heat-map is showed to display the correlation between Star-Rating and Categories. 
-As we can expect, the "Video-DVD" category has the most and more positive rating reviews.
+Finally, an heat-map is showed to display the correlation between Star-Rating and Categories. As we can expect, the "Video-DVD" category has the most and more positive rating reviews.
 {: .left}
 <br>
 ![Correlation between Categories and Star-Rating](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/Correlation%20between%20Categories%20and%20Star-Rating.png)
