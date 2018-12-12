@@ -16,11 +16,23 @@ In order to thorough analyse the dataset, we will build three different networks
 The Customers-Products network represents the relationships between customers and products. 
 * Nodes: Each node corresponds to a customer or a product.
 * Edges: Each edge connects a customer to a product, it represents the review made by the customer about that product.
+
 The network has **992122** nodes and **1701243** edges. Below, the degree distribution is shown:
 {: .letft}
 ![subnetwork](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/CustomerProductDegreeDistribution.png)
 ![subnetwork](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/CustomerProductDegreeDistributionLog.png)
 {: .center}
+The degree analysis shows that there is a big gap between the minimum and maximum degree. However, it also shows that the majority of the nodes have a small degree, whereas, the higher degrees are spread among few nodes. This suggests that probably there are many customers which have reviewed a small number of products and vice versa, many products which have been reviewed by few customers. Simultaneously, it suggests that there few nodes which have an elevated degree. Since it is reasonably infeasible that a single customer has reviewed so many products, we believe that these nodes correspond to the top-sold items. 
+### Top category analysis
+Due to the huge size of the original network, we want to study a subgraph in order to understand if it reflects the same properties of the whole one. In particular, we will focus on the biggest one and we will analyse it.
+
+The network has **264632** nodes and **462866** edges. Below, the degree distribution is shown:
+{: .letft}
+![subnetwork](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/CustomerProductDegreeDistribution.png)
+![subnetwork](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/CustomerProductDegreeDistributionLog.png)
+{: .center}
+It can be seen that the subnetwork reflects the same behaviour of the original one.
+{: .letft}
 ![subnetwork](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/Subnetwork.png)
 {: .center}
 
