@@ -15,7 +15,8 @@ We ere interested in seeing the lexical richness of the categories' reviews. Bel
 {: .center}
 "Video" and "Books" are really close to one.  This is because we usually describe a book with a wider range of adjectives comparing to a router. In contrast, the "Shoes" category seems poorest together with "Baby" and "Watches".
 Regarding the difference between headline and body, we can see that there is a big gap. This means that reviewers usually use the same words to do the review's body, while they are more "creative" in the title.
-### Lexical Diversity
+
+### Tags
 {: .left}
 ![body tags](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/body%20tags.png)
 {: .center}
