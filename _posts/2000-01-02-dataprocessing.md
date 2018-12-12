@@ -10,7 +10,7 @@ To help users who want access to their data, Amazon offers their dataset as comp
 {: .left}
 
 The compressed file that we used is 333 Mb. Uncompressed is 840 Mb. The .tsv file contains 1.707.496 millions rows of data and 14 columns. After some processing we deleted some of the rows because they where either empty (NaN) or corrupted.
-There are 14 columns in the .tsv file which are :
+There are 15 columns in the .tsv file which are :
 <div align = "center">
 <table style="width:80%">
 <tr>
@@ -42,11 +42,7 @@ There are 14 columns in the .tsv file which are :
 {: .center}
 <br>
 
-| Header One     | Header Two     |
-| :------------- | :------------- |
-| Item One       | Item Two       |
-
-We decided to use 8 of the 14 columns for our project which are :
+We decided to use 8 of the 15 columns for our project which are :
 
 1. customer_id
 1. product_id
