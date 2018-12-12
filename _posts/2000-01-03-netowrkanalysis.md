@@ -84,9 +84,15 @@ Looking at the graph as well as at the distribution, it can be observed that the
 {: .center}
 The eigenvector centrality enforces what we have seen in the previous one. In fact, nodes with a higher betweenness have an even higher eigenvector centrality. This is due to nature of the eigenvector centrality.
 {: .letft}
-
+#### Assoratativity
+The assortativity coefficient is very close to zero. This suggests that the network is non-assortative. This reveals that nodes do not strictly tend to connect with nodes that have a similar degree.
+#### Community
+In this section, we will perform an analysis in order to find out communities among the customers. The main purpose is to identify if customers are correlated, therefore, we will study if the network reveals interesting properties. In case of positive result, this analysis could be used to perform a product recommendation to the customers.
+{: .letft}
 ![customer communities](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/CustomerNetworkCommunities.png)
 {: .center}
+450 communities have been found by the algorithm. Additionally, the modularity is very close to 1. This suggests that the found partition is reliable and the network shows a "community" structure. The biggest community has 250 nodes and all the top 10 communities have more than 100 nodes. Meanwhile, the smaller ones are composed of isolated nodes. This suggests that customers with a higher number of reviews create communities with other customers which have reviewed the same products. On the other hand, customers which have reviewed only one product remains isolated.
+{: .letft}
 
 ![product degree network](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/ProductDegreeNetwork.png)
 {: .center}
