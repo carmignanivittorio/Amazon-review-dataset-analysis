@@ -107,6 +107,17 @@ The network has **58443** nodes and **5699232** edges. Below, the degree distrib
 {: .center}
 Looking at the results, it can be seen that the network has a huge number of edges. This means that products are well connected. Additionally, the degree distribution suggests that there is a remarkable number of products with a small degree but at the same time, other ones have a large number of connections. Probably, this is due to the fact that many products have been reviewed by a small number of customers, therefore, they are poorly connected with the other ones. On the other hand, products with many reviews are well connected, because they share more customers. We expected this kind of result, in fact, it sounds reasonable that the majority of products have few reviews and few products have been bought by a lot of users.
 {: .letft}
+### Best products analysis
+Here, we are interested in identifying which are the best products in terms of review number, as well as which are the best categories. By doing this, we want to understand if there is a clear distinction between or they more products/categories with a similar number of reviews. 
+Below, the top 5 categories are shown:
+{: .letft}
+![product degree network](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/TopCategory.png)
+{: .center}
+Below, the top 50 products are shown:
+{: .letft}
+![product degree network](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/TopProduct.png)
+The result of this analysis reflects what we already found in the category analysis. Indeed, the top categories are the entertainment ones. Even though we already knew the top categories, this analysis revealed that there is a remarkable difference between them. This means the top category, Video DVD, has significantly more reviews than the second one, Music. The same is recursively respected among the other ones. Looking at the product's result, it confirms what category analysis suggested. In fact, almost all of the top 50 products correspond to DVD. An interesting point is that only two very famous mobile apps like Candy Crush Saga and Facebook, appear in the top 50. On the whole, we understood that customers are really in love with movies and DVD.
+{: .letft}
 ![product degree network](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/ProductDegreeNetwork.png)
 {: .center}
 
