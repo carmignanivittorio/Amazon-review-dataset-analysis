@@ -13,13 +13,22 @@ We ere interested in seeing the lexical richness of the categories' reviews. Bel
 
 ![lexical diversity](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/lexical%20diversity.png)
 {: .center}
+
 "Video" and "Books" are really close to one.  This is because we usually describe a book with a wider range of adjectives comparing to a router. In contrast, the "Shoes" category seems poorest together with "Baby" and "Watches".
 Regarding the difference between headline and body, we can see that there is a big gap. This means that reviewers usually use the same words to do the review's body, while they are more "creative" in the title.
+{: .left}
 
 ### Tags
+{: .center}
+
+Here we have studied the distribution of the tags: "Adjectives, Nouns, Verbs". We would like to see if there are any differences between the categories. We expect to find more "adjectives" and "nouns" since we are analyzing reviews.
 {: .left}
+
 ![body tags](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/body%20tags.png)
 {: .center}
+
+
+{: .left}
 
 ![amazon most common words](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/amazon_cloudword_most_common_word.png)
 {: .center}
