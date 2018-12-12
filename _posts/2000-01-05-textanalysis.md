@@ -31,10 +31,28 @@ The differences between categories are more evident in the headline's graph but 
 Comparing the two graphs, it can be seen that in the headlines is rarer to find verbs. As we forecasted, "Noun" and "adjectives" represents the most famous tags.
 {: .left}
 
+### Collocations
+{: .center}
 
+We had 2 goals in this section.
+1) Retrieve the collocations, bigram, and trigrams, for both texts with/without stopwords. And show the top4/top3 for bigrams/trigrams.
+2) Actually, use these collocations to change the structures' text. Precisely, we would keep the collocations as they are in the next analysis. In this way the analysis of the TF_IDF (which will be performed later) could be more interesting. In particular, in the word clouds, the 2/3 words (which form a collocation) will appear together and not in a random position (inside the picture).
+{: .left}
+
+![body tags](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/bigrams.PNG)
+{: .center}
+
+### TF-IDF vs Common words
+{: .center}
+
+ In this section we are going to analyze the differences between the use of the frequency and TF-IDF to retrieve the importance a word in a text.
+
+This is wordlcloud taking into account all the reviews (body+headline) using the most common word. As we could expect, most words are related to books and videos, which are the categories with highest number of reviews. Then, we can see a lot "good" adjectives. This is due to the fact of having a lot of good reviews (5 stars).
 
 ![amazon most common words](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/amazon_cloudword_most_common_word.png)
 {: .center}
+
+Let's start drawing now...
 
 ![baby](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/baby.png)
 {: .center}
@@ -96,6 +114,18 @@ Comparing the two graphs, it can be seen that in the headlines is rarer to find 
 ![wireless](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/wireless.png)
 {: .center}
 
+As we expect, the TF-IDF works far better. In fact, it can catch all the brands, people relate to the respective category. This is really clear within the category Camera where: in TF-IDF you can find Nikon, Manfrotto, Fujifilm, Lowepro etc. While in the most common words are not recognizable. In contrast, in the most common words wordClouds appear a lot of adjectives which are common with all the categories such as great, good, love etc.
+We did the same also for star rating, but it did not work well. Therefore we tried to do another duel.
+{: .left}
+
+### TF-IDF body vs TF-IDF headlines
+{: .center}
+
+In this section we are going see where can we find the most important words: headline vs body. It is reasonable to think that the headline will give better results.
+
+Let's start drawing now...
+{: .left}
+
 ![1_5](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/1.5_stars.png)
 {: .center}
 
@@ -110,6 +140,13 @@ Comparing the two graphs, it can be seen that in the headlines is rarer to find 
 
 ![5_5](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/5.5_stars.png)
 {: .center}
+
+It is pretty clear that the headline contains more "important" words. For example:
+* "Rubbish", **"Total_waste_money"** for one star (we would underline the collocation).
+* "Baaaaaad", bleh" for two stars.
+* For three stars the results are not really clear, this should be the neutral evaluation.
+* "Wonderful", "comforting" for four stars.
+* "Unmissable","awesomeness","unbeatable" for five stars.
 
 ![similarity matrix](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/similarity_matrix.png)
 {: .center}
