@@ -40,7 +40,7 @@ The 14 columns are :
 </table>
 </div>
 {: .center}
-
+<br>
 
 We decided to use 8 of the 14 columns for our project which are :
 
