@@ -31,8 +31,7 @@ We decided to use 8 out of the 15 columns for our project which are :
 The original dataset contains 32 categories. Since 12 of them have less than 1000 reviews (all together they represents the 0.19% of the entire dataset), we decided to exclude them. In the following graphs we show some of the basic statistics we were able to conduct with the data we obtained.
 
 <br>
-
-Then, it is presented the graph of the numbers of reviews based on the star rating. As before, the distribution is not uniform.
+Below, the graph represents the numbers of reviews based on the star rating. As we can see the distribution is not uniform.
 Most of the reviews tend to get a positive rating and more than one million reviews have been rated with 5 stars.
 {: .left}
 
