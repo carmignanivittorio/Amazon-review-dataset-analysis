@@ -42,7 +42,7 @@ There are 14 columns in the .tsv file which are :
 {: .center}
 <br>
 
-| marketplace    | customer_id   |
+
 | :------------- | :-------------|
 | review_id      | review_date   |
 
