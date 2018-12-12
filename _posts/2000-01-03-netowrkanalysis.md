@@ -33,6 +33,13 @@ The network has **264632** nodes and **462866** edges. Below, the degree distrib
 {: .center}
 It can be seen that the subnetwork reflects the same behaviour of the original one.
 {: .letft}
+### Subgraph analysis
+Due to the network's size, some analysis requires too much time to be executed by our hardware. Consequenlty, in order to be able to complete all the analysis we are interested in, we decided to create a bipartite subnetwork which will be used during all the following notebook's analysis.
+
+The main problem was to find a reasonable trade-off between the number of nodes and computation time. A second one was that the network complexity grows exponentially with the number of nodes considered. Therefore, after several attempts, we decided to consider the products which have been reviewed 50 times. Thus, we built a bipartite network taking the product nodes within the associated customer nodes.
+
+Below, the network is shown:
+{: .letft}
 ![subnetwork](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/Subnetwork.png)
 {: .center}
 
