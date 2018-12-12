@@ -72,7 +72,9 @@ color: white
 
 ![newheatmap](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/new_heatmap.png)
 
-![categories sentiment distribution](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/categories%20sentiment%20distribution.png)
+![categories sentiment distribution](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/categories%20sentiment%20distribution%20new.png)
+
+![joy plot](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/joy%20plot.png)
 
 ![sentiment headlines](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/sentiment%20headlines.png)
 {: .center}
