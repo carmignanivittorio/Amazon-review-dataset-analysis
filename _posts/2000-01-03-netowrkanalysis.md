@@ -154,14 +154,17 @@ The assortativity coefficient is close to zero. This suggests that the network c
 ### Community
 In this section, we will perform an analysis in order to find out communities among the products. The main goal is to find out if products are correlated, hence, we will analyse if the network reveals relevant properties. An interesting point is that in case of a positive result, it will be possible to perform a product recommendation of the products. Additionally, we will compare the communities found by the Louvain algorithm with ones formed by the real categories.
 #### Louvain communities
+Below, the network is shown based on the Louvain communities:
 {: .letft}
 ![product louvain communities](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/ProductLouvainCommunities.png)
 {: .center}
 #### Category communities
+Below, the network is shown based on the categories:
 {: .letft}
 ![product category communities](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/ProductCategoryCommunities.png)
 {: .center}
 #### Confusion matrix
+Below, the confusion matrix is shown:
 {: .letft}
 ![product confusion matrix](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/ProductConfusionMatrix.png)
 {: .center}
