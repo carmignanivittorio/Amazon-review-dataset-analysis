@@ -149,12 +149,21 @@ The graph and the distribution confirmed what we saw in the degree and closeness
 ![product eigenvector network](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/ProductEigenvectorNetwork.png)
 {: .center}
 The eigenvector centrality enforces what we have seen in the previous one. It can be seen that the bigger nodes become even bigger, whereas, the smaller ones become even smaller. This is due to the eigenvector centrality's property.
+#### Assortativity
+The assortativity coefficient is close to zero. This suggests that the network can be considered non-assortative. This reveals that nodes do not strictly tend to connect with nodes that have a similar degree.
+### Community
+In this section, we will perform an analysis in order to find out communities among the products. The main goal is to find out if products are correlated, hence, we will analyse if the network reveals relevant properties. An interesting point is that in case of a positive result, it will be possible to perform a product recommendation of the products. Additionally, we will compare the communities found by the Louvain algorithm with ones formed by the real categories.
+#### Louvain communities
 {: .letft}
 ![product louvain communities](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/ProductLouvainCommunities.png)
 {: .center}
-
+#### Category communities
+{: .letft}
 ![product category communities](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/ProductCategoryCommunities.png)
 {: .center}
-
+#### Confusion matrix
+{: .letft}
 ![product confusion matrix](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/ProductConfusionMatrix.png)
 {: .center}
+Firstly, the modularity is roughly 0.6. This means that there is a good community structure in the network but lower than the customer's one. This result was not really expected. Since products are gathered in categories, we supposed that they would have had a clearer community structure than customers. Furthermore, it can be seen that the communities found by the algorithm partially correspond to the actual categories. The main difference is that the Louvain algorithm tends to group nodes in a clearer way, whereas, looking at the real categories, nodes are more mixed. On the whole, this analysis shows that there is a community structure in the network. Additionally, albeit there are some nodes which tend to connect with nodes of other categories, it confirms that nodes of the same category tend to be more connected with other nodes of the same category. Morevoer, we believe that considering a bigger subnetwork, the results would be even more accurate.
+{: .letft}
