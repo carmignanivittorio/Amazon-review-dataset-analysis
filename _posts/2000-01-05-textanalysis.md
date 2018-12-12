@@ -214,11 +214,18 @@ Let's understand which are the happiest/saddest categories. Then, let's see the 
 * It is reasonable to think that this data is biased by the large presence of "5-star reviews". Since this plot does not show the distribution "in details", an additional "more classic" graph will be created.
 {: .left}
 <br>
+<br>
 ![joy plot](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/joy%20plot.png)
 {: .center}
 <br>
- This graph is more detailed. In particular it can be observed that, most of the distributions presents 2 peaks, approximately in 50 and in 65. As we said before, this is probably due to the fact that the distribution of the reviews (in terms of star rating) is not uniform. Interpreting these peacks, it is logical to think that the reviews are either neutral (50) or relative happy (65). These abnormalies are more visible in MobileApps and Video. This behaviour was not caputered by the previous graph. In our opinion, it was duty to the fact that the 2 peaks were contained in the "main box" for each category. In addition, looking at the tails, it seems that MobileApps has signficant numbers of "haters", with values near 25, and "lovers", with values near 85.
+This graph is more detailed. In particular, it can be observed that most of the distributions present 2 peaks, approximately in 50 and in 65. As we said before, this is probably due to the fact that the distribution of the reviews (in terms of star rating) is not uniform. Interpreting these peaks, it is logical to think that the reviews are either neutral (50) or relative happy (65). These abnormalities are more visible in _MobileApps_ and _Video_. This behavior was not captured by the previous graph. In our opinion, it was due to the fact that the 2 peaks were contained in the "main box" for each category. In addition, looking at the tails, it seems that _MobileApps_ has significant numbers of "haters", with values near 25, and "lovers", with values near 85.
 {: .left}
 <br>
+
+### Funny measurements
+<br>
+
+
+
 ![sentiment headlines](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/sentiment%20headlines.png)
 {: .center}
