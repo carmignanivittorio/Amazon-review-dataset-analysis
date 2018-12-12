@@ -14,27 +14,27 @@ The 14 columns are :
 <div>
 <table style="width:100%">
 <tr>
-<td align="right">marketplace</td>
-<td align="right">customer_id</td>
-<td align="right">review_id</td>
-<td align="right">review_date</td>
+<td align="left">marketplace</td>
+<td align="left">customer_id</td>
+<td align="left">review_id</td>
+<td align="left">review_date</td>
 </tr>
 <tr>
-<td align="right">product_parent</td>
-<td align="right">product_title</td>
-<td align="right">product_category</td>
+<td align="left">product_parent</td>
+<td align="left">product_title</td>
+<td align="left">product_category</td>
 <td>vine</td>
 </tr>
 <tr>
-<td align="right">star_rating</td>
-<td align="right">helpful_votes</td>
-<td align="right">total_votes</td>
+<td align="left">star_rating</td>
+<td align="left">helpful_votes</td>
+<td align="left">total_votes</td>
 
 </tr>
 <tr>
-<td align="right">verified_purchase</td>
-<td align="right">review_headline</td>
-<td align="right">review_body</td>
+<td align="left">verified_purchase</td>
+<td align="left">review_headline</td>
+<td align="left">review_body</td>
 
 </tr>
 </table>
