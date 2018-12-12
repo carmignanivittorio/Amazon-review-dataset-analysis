@@ -31,7 +31,13 @@ The differences between categories are more evident in the headline's graph but 
 Comparing the two graphs, it can be seen that in the headlines is rarer to find verbs. As we forecasted, "Noun" and "adjectives" represents the most famous tags.
 {: .left}
 
+### Collocations
+{: .center}
 
+We had 2 goals in this section. 1) Retrieve the collocations, bigram, and trigrams, for both texts with/without stopwords. And show the top4/top3 for bigrams/trigrams. 2) Actually, use these collocations to change the structures' text. Precisely, we would keep the collocations as they are in the next analysis. In this way the analysis of the TF_IDF (which will be performed later) could be more interesting. In particular, in the word clouds, the 2/3 words (which form a collocation) will appear together and not in a random position (inside the picture).
+{: .left}
+
+![body tags](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/bigrams.png)
 
 ![amazon most common words](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/amazon_cloudword_most_common_word.png)
 {: .center}
