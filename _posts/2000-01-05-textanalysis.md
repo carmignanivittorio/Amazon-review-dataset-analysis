@@ -67,9 +67,12 @@ color: white
 ![similarity matrix](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/similarity_matrix.png)
 {: .center}
 
-![sentiments](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/sentiments.png)
+![line charts](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/sentiment%20charts.png)
+{: .center}
 
-![sentiment distribution](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/category%20sentiment%20distribution.png)
+![heatmap](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/heatmap.png)
 
-![sentiment headlines](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/sentiment_headlines.png)
+![sentiment distribution](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/categories%20sentiment%20distribution.png)
+
+![sentiment headlines](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/sentiment%20headlines.png)
 {: .center}
