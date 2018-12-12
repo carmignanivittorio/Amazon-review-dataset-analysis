@@ -148,7 +148,19 @@ It is pretty clear that the headline contains more "important" words. For exampl
 * "Wonderful", "comforting" for four stars.
 * "Unmissable","awesomeness","unbeatable" for five stars.
 
+### Similarity between categories
+{: .center}
+
+In this section, we want to see which is the similarity between the different categories. In particular, see if there are interesting hidden common characteristic among the categories, in terms of words. We have used the cosine similarity to calculate the distance between the TF-IDF vectors (which represent the various categories).
+{: .left}
+
 ![similarity matrix](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/similarity_matrix.png)
+{: .center}
+
+The matrix does not show really interesting results. Most of the strong relations are between the digital and the classic version of the same category.
+{: .left}
+
+## Sentimental Analysis
 {: .center}
 
 ![line charts](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/sentiment%20charts.png)
