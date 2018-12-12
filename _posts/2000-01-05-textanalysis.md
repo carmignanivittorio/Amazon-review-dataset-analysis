@@ -10,10 +10,12 @@ Let's see what we have discoverd about Amazon's reviewers and reviews.
 ### Lexical Diversity
 We ere interested in seeing the lexical richness of the categories' reviews. Below you can see our plot of the lexical diversity.
 {: .left}
+
 ![lexical diversity](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/lexical%20diversity.png)
 {: .center}
-As expected, "Video" and "Books" are really close to one. In contrast, the "Shoes" category seems poorest together with "Baby" and "Watches".
+"Video" and "Books" are really close to one.  This is because we usually describe a book with a wider range of adjectives comparing to a router. In contrast, the "Shoes" category seems poorest together with "Baby" and "Watches".
 Regarding the difference between headline and body, we can see that there is a big gap. This means that reviewers usually use the same words to do the review's body, while they are more "creative" in the title.
+### Lexical Diversity
 {: .left}
 ![body tags](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/body%20tags.png)
 {: .center}
