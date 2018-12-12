@@ -16,6 +16,7 @@ In order to thorough analyse the dataset, we will build three different networks
 The Customers-Products network represents the relationships between customers and products. 
 * Nodes: Each node corresponds to a customer or a product.
 * Edges: Each edge connects a customer to a product, it represents the review made by the customer about that product.
+
 The network has **992122** nodes and **1701243** edges. Below, the degree distribution is shown:
 {: .letft}
 ![subnetwork](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/CustomerProductDegreeDistribution.png)
