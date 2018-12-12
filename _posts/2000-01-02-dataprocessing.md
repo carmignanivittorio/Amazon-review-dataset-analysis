@@ -10,42 +10,38 @@ To help users who want access to their data, Amazon offers their dataset as comp
 {: .left}
 
 The compressed file that we used is 333 Mb. Uncompressed is 840 Mb. The .tsv file contains 1.707.496 millions rows of data and 14 columns. After some processing we deleted some of the rows because they where either empty (NaN) or corrupted.
-The 14 columns are :
+There are 14 columns in the .tsv file which are :
 <div align = "center">
-<table style="width:100%">
+<table style="width:80%">
 <tr>
-<td align="left">marketplace</td>
-<td align="left">customer_id</td>
-<td align="left">review_id</td>
-<td align="left">review_date</td>
+<td>marketplace</td>
+<td>customer_id</td>
+<td>review_id</td>
+<td>review_date</td>
 </tr>
 <tr>
-<td align="left">product_parent</td>
-<td align="left">product_title</td>
-<td align="left">product_category</td>
-<td align="left">vine</td>
+<td>product_parent</td>
+<td>product_title</td>
+<td>product_category</td>
+<td>vine</td>
 </tr>
 <tr>
-<td align="left">star_rating</td>
-<td align="left">helpful_votes</td>
-<td align="left">total_votes</td>
+<td>star_rating</td>
+<td>helpful_votes</td>
+<td>total_votes</td>
 
 </tr>
 <tr>
-<td align="left">verified_purchase</td>
-<td align="left">review_headline</td>
-<td align="left">review_body</td>
+<td>verified_purchase</td>
+<td>review_headline</td>
+<td>review_body</td>
 
 </tr>
 </table>
 </div>
 {: .center}
+<br>
 
-|  marketplace 	|  customer_id 	| review_id  	| review_date  	|
-|---	|---	|---	|---	|---	|
-|   product_parent	|  product_title 	|  product_category 	|   	|   vine	|
-|   	|   	|   	|   	|   	|
-|   	|   	|   	|   	|   	|
 We decided to use 8 of the 14 columns for our project which are :
 
 1. customer_id
@@ -59,10 +55,24 @@ We decided to use 8 of the 14 columns for our project which are :
 
 Because there are many categories in our data-set we decided to exclude some as the number of the reviews wouldn't contribute to our project analysis. In the below graphs we show some of the basic statistics we where able to conduct with the data we obtained.
 
+<br>
+
+The graph below shows the distribution of the reviews based on the category of the product
+{: .center}
 
 ![product_category_graph](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/product_category.jpg)
+{: .center}
+<br>
+
+This graph shows the Star-Rating of the reviews as seen by the customers
+{: .center}
 
 ![star-rating_graph](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/star_rating.png)
+{: .center}
+<br>
 
+And finally in the graph below we represent a heatmap that takes the Star-Rating and the Categories and finds correlations between those 2.
+{: .center}
+<br>
 ![Correlation between Categories and Star-Rating](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/Correlation%20between%20Categories%20and%20Star-Rating.png)
 {: .center}
