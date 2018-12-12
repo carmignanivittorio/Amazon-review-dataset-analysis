@@ -40,6 +40,12 @@ The 14 columns are :
 </table>
 </div>
 {: .center}
+
+|  marketplace 	|  customer_id 	| review_id  	| review_date  	|
+|---	|---	|---	|---	|---	|
+|   product_parent	|  product_title 	|  product_category 	|   	|   vine	|
+|   	|   	|   	|   	|   	|
+|   	|   	|   	|   	|   	|
 We decided to use 8 of the 14 columns for our project which are :
 
 1. customer_id
