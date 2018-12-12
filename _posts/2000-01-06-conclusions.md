@@ -1,7 +1,7 @@
 ---
 title: "Sentimental Analysis"
 bg: purple
-color: white
+color: black
 ---
 
 <br>
