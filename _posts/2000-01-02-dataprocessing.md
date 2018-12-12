@@ -10,43 +10,14 @@ To help users who want access to their data, Amazon offers their dataset as comp
 {: .left}
 
 The compressed file that we used is 333 Mb. Uncompressed is 840 Mb. The .tsv file contains 1.707.496 millions rows of data and 14 columns. After some processing we deleted some of the rows because they where either empty (NaN) or corrupted.
-There are 14 columns in the .tsv file which are :
-<div align = "center">
-<table style="width:80%">
-<tr>
-<td>marketplace</td>
-<td>customer_id</td>
-<td>review_id</td>
-<td>review_date</td>
-</tr>
-<tr>
-<td>product_parent</td>
-<td>product_title</td>
-<td>product_category</td>
-<td>vine</td>
-</tr>
-<tr>
-<td>star_rating</td>
-<td>helpful_votes</td>
-<td>total_votes</td>
+There are 15 columns in the .tsv file which are :
 
-</tr>
-<tr>
-<td>verified_purchase</td>
-<td>review_headline</td>
-<td>review_body</td>
-
-</tr>
-</table>
-</div>
-{: .center}
 <br>
+![table](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/table.png)
 
-| Header One     | Header Two     |
-| :------------- | :------------- |
-| Item One       | Item Two       |
-
-We decided to use 8 of the 14 columns for our project which are :
+<br>
+<br>
+We decided to use 8 of the 15 columns for our project which are :
 
 1. customer_id
 1. product_id
