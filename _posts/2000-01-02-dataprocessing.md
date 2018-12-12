@@ -16,6 +16,7 @@ There are 15 columns in the .tsv file which are :
 ![table](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/table.png)
 
 <br>
+<br>
 We decided to use 8 of the 15 columns for our project which are :
 
 1. customer_id
