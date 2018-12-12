@@ -17,7 +17,7 @@ There are 15 columns in the .tsv file which are :
 
 <br>
 <br>
-We decided to use 8 of the 15 columns for our project which are :
+We decided to use 8 out of the 15 columns for our project which are :
 
 1. customer_id
 1. product_id
@@ -28,26 +28,30 @@ We decided to use 8 of the 15 columns for our project which are :
 1. review_body
 1. review_date.
 
-Because there are many categories in our data-set we decided to exclude some as the number of the reviews wouldn't contribute to our project analysis. In the below graphs we show some of the basic statistics we were able to conduct with the data we obtained.
+Since there are 32 categories in our dataset where 12 have less than 1000 reviews (all together they represents the 0.19% of the entire dataset)  
+we decided to exclude them. In the following graphs we show some of the basic statistics we were able to conduct with the data we obtained.
 
 <br>
 
-The graph below shows the distribution of the reviews based on the category of the product. As you can see the most reviewed category is the "Video - DVD" with more than 400000 reviews and the category with the least reviews is the "Shoes"
-{: .center}
+We present here the number of reviews divided by category. As you can see the dataset is not uniform. The largest one, "Video - DVD", has more than 460000 
+reviews while "Shoes" "only" 1718.
+{: .left}
 
 ![product_category_graph](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/product_category.jpg)
 {: .center}
 <br>
 
-This graph shows the Star-Rating of the reviews as seen by the customers. Most of the reviews tend to get a positive rating and more than one million reviews have been rated with 5 stars. That means that the reviews were useful for those who read them.
-{: .center}
+Then, it is presented the graph of the numbers of reviews based on the star rating. As before, the distribution is not uniform.
+Most of the reviews tend to get a positive rating and more than one million reviews have been rated with 5 stars. 
+{: .left}
 
 ![star-rating_graph](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/star_rating.png)
 {: .center}
 <br>
 
-And finally, in the graph below we represent a heat-map that takes the Star-Rating and the Categories and finds correlations between those 2. As we can conclude, the "Video-DVD" category has the most and more positive rating reviews.
-{: .center}
+Finally, an heat-map is showed to display the correlation between Star-Rating and Categories. 
+As we can expect, the "Video-DVD" category has the most and more positive rating reviews.
+{: .left}
 <br>
 ![Correlation between Categories and Star-Rating](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/Correlation%20between%20Categories%20and%20Star-Rating.png)
 {: .center}
