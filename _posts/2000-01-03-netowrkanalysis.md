@@ -11,6 +11,7 @@ In order to thorough analyse the dataset, we will build three different networks
 1. Bipartite Customers-Products network
 1. Customers network
 1. Products network
+{: .letft}
 ### Bipartite Customers-Products network
 Firstly, we built a bipartite Customers-Products network representing the relationships between customers and products. Then, we will analyse this network in order to discover interensting properties among products and users. 
 * Nodes: There are two types of nodes: customers and products. Each node has isCust property which indicates if the node represents a customer or a product. Meanwhile, product nodes have two additional properties: title and cat, they represent the product's title and category respectively.
