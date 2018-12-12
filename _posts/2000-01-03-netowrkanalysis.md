@@ -48,8 +48,21 @@ The network has **6681** nodes and **6691** edges. Below, the degree distributio
 {: .center}
 All these three networks satisfy the *Friendship paradox* with rate higher the 95 per cent.
 {: .letft}
+## Customers network
+This network represents the relationships among customers. We study this network in order to find out interesting properties across customers. Specifically, the network is created as follows:
+* Nodes: Each node corresponds to a customer.
+* Edges: Each edge connects two customers which have reviewed at least one product in common. In order to properly assign weights among edges, each edge has weight equal to the number of common products divided by the sum of the rates difference.
+
+Since the network's size exponentially increases with the number of products considered, it was infeasible to create the projection of the whole orignal network. Consequently, we built the projection of the subnetwork.
+Below, the network is shown:
 ![customer degree network](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/CustomerDegreeNetwork.png)
 {: .center}
+The network has **6547** nodes and **163697** edges. Below, the degree distribution is shown:
+{: .letft}
+![subnetwork](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/CustomerDegreeDistribution.png)
+{: .center}
+Looking at the size and the degree distribution, we can observe that there is a large number of edges. This is due to the fact that the original bipartite network is composed of products with 50 reviews. As a matter of fact, the majority of the nodes has degree equal to 49 while the remaining degrees are spread among few customers. This enforces the conclusion of the previous network. Indeed, many customers have degree equal to 49 because they have reviewed only one product.
+{: .letft}
 
 ![customer closeness](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/CustomerClosenessNetwork.png)
 {: .center}
