@@ -212,6 +212,7 @@ Let's understand which are the happiest/saddest categories. Then, let's see the 
 * Video and Baby are the "happiest" category with an average sentiment value about 63.
 * In contrast, Music and Watches are the "saddest" with an average sentiment value about 55, which is still a "happy" value.
 * It is reasonable to think that this data is biased by the large presence of "5-star reviews". Since this plot does not show the distribution "in details", an additional "more classic" graph will be created.
+{: .left}
 <br>
 ![joy plot](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/joy%20plot.png)
 {: .center}
