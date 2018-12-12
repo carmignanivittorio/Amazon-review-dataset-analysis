@@ -55,6 +55,7 @@ This network represents the relationships among customers. We study this network
 
 Since the network's size exponentially increases with the number of products considered, it was infeasible to create the projection of the whole orignal network. Consequently, we built the projection of the subnetwork.
 Below, the network is shown:
+{: .letft}
 ![customer degree network](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/CustomerDegreeNetwork.png)
 {: .center}
 The network has **6547** nodes and **163697** edges. Below, the degree distribution is shown:
