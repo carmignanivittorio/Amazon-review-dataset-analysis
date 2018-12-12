@@ -203,15 +203,15 @@ Let's understand which are the happiest/saddest categories. Then, let's see the 
 <br>
 ![categories sentiment distribution](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/categories%20sentiment%20distribution%20new.png)
 {: .center}
+
 <br>
-Plot explanation : in this plot, there is a lot of information which will be explained. Firstly, the plot shows the sentiment distribution for each category. Each box has a different shape based on how the review's sentiment is distributed. Secondly, the black line which can be found in each box represents the average. As you can see, the categories are plotted in order respect to this value. All the boxes have approximately the same shape, width, and height. It does not mean that they have the same number of reviews but, the distribution is normalized based on the own values. To see the difference in the number of values, the grey things over the boxes were plotted. Specifically, each point is a review and its position is based on its sentimental value. In fact, you can see that Music and DVD have a lot of reviews comparing to Shoes. Moreover, it can be seen that in the tails appear fewer points (because they represent exceptions in terms of sentiment).
+***Plot explanation*** : in this plot, there is a lot of information which will be explained. Firstly, the plot shows the sentiment distribution for each category. Each box has a different shape based on how the review's sentiment is distributed. Secondly, the black line which can be found in each box represents the average. As you can see, the categories are plotted in order respect to this value. All the boxes have approximately the same shape, width, and height. It does not mean that they have the same number of reviews but, the distribution is normalized based on the own values. To see the difference in the number of values, the grey things over the boxes were plotted. Specifically, each point is a review and its position is based on its sentimental value. In fact, you can see that Music and DVD have a lot of reviews comparing to Shoes. Moreover, it can be seen that in the tails appear fewer points (because they represent exceptions in terms of sentiment).
 
 **Outcomes**:
-
-From this plot we can say that there are not many differences between the distributions.
-Video and Baby are the "happiest" category with an average sentiment value about 63.
-In contrast, Music and Watches are the "saddest" with an average sentiment value about 55, which is still a "happy" value.
-It is reasonable to think that this data is biased by the large presence of "5-star reviews". Since this plot does not show the distribution "in details", an additional "more classic" graph will be created.
+* From this plot we can say that there are not many differences between the distributions.
+* Video and Baby are the "happiest" category with an average sentiment value about 63.
+* In contrast, Music and Watches are the "saddest" with an average sentiment value about 55, which is still a "happy" value.
+* It is reasonable to think that this data is biased by the large presence of "5-star reviews". Since this plot does not show the distribution "in details", an additional "more classic" graph will be created.
 <br>
 ![joy plot](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/joy%20plot.png)
 {: .center}
