@@ -40,9 +40,19 @@ We had 2 goals in this section.
 {: .left}
 
 ![body tags](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/bigrams.PNG)
+{: .center}
+
+### TF-IDF vs Common words
+{: .center}
+
+ In this section we are going to analyze the differences between the use of the frequency and TF-IDF to retrieve the importance a word in a text.
+
+This is wordlcloud taking into account all the reviews (body+headline) using the most common word. As we could expect, most words are related to books and videos, which are the categories with highest number of reviews. Then, we can see a lot "good" adjectives. This is due to the fact of having a lot of good reviews (5 stars).
 
 ![amazon most common words](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/amazon_cloudword_most_common_word.png)
 {: .center}
+
+Let's start drawing...
 
 ![baby](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/baby.png)
 {: .center}
