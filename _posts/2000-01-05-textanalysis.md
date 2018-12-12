@@ -9,7 +9,7 @@ Let's see what we have discoverd about Amazon's reviewers and reviews.
 
 <br>
 ### Lexical Diversity
-We ere interested in seeing the lexical richness of the categories' reviews. Below you can see our plot of the lexical diversity.
+We are interested in seeing the lexical richness of the categories' reviews. Below you can see our plot of the lexical diversity.
 {: .left}
 
 ![lexical diversity](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/lexical%20diversity.png)
