@@ -218,6 +218,7 @@ Let's understand which are the happiest/saddest categories. Then, let's see the 
 {: .center}
 <br>
  This graph is more detailed. In particular it can be observed that, most of the distributions presents 2 peaks, approximately in 50 and in 65. As we said before, this is probably due to the fact that the distribution of the reviews (in terms of star rating) is not uniform. Interpreting these peacks, it is logical to think that the reviews are either neutral (50) or relative happy (65). These abnormalies are more visible in MobileApps and Video. This behaviour was not caputered by the previous graph. In our opinion, it was duty to the fact that the 2 peaks were contained in the "main box" for each category. In addition, looking at the tails, it seems that MobileApps has signficant numbers of "haters", with values near 25, and "lovers", with values near 85.
-
+{: .left}
+<br>
 ![sentiment headlines](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/sentiment%20headlines.png)
 {: .center}
