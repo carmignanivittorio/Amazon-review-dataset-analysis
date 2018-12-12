@@ -32,18 +32,18 @@ The original dataset contains 32 categories. Since 12 of them have less than 100
 
 <br>
 
+Then, it is presented the graph of the numbers of reviews based on the star rating. As before, the distribution is not uniform.
+Most of the reviews tend to get a positive rating and more than one million reviews have been rated with 5 stars.
+{: .left}
+
+![star-rating_graph](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/star_rating.png)
+{: .center}
+<br>
+
 We present here the number of reviews divided by category. As you can see the dataset is not uniform. The largest one, "Video - DVD", has more than 460000 reviews while "Shoes" "only" 1718.
 {: .left}
 
 ![product_category_graph](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/product_category.jpg)
-{: .center}
-<br>
-
-Then, it is presented the graph of the numbers of reviews based on the star rating. As before, the distribution is not uniform.
-Most of the reviews tend to get a positive rating and more than one million reviews have been rated with 5 stars. 
-{: .left}
-
-![star-rating_graph](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/star_rating.png)
 {: .center}
 <br>
 
