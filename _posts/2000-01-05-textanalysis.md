@@ -21,14 +21,17 @@ Regarding the difference between headline and body, we can see that there is a b
 ### Tags
 {: .center}
 
-Here we have studied the distribution of the tags: "Adjectives, Nouns, Verbs". We would like to see if there are any differences between the categories. We expect to find more "adjectives" and "nouns" since we are analyzing reviews.
+Here we have studied the distribution of the tags: "Adjectives, Nouns, Verbs" in both body and headline. We would like to see if there are any differences between the categories. We expected to find more "adjectives" and "nouns" since we are analyzing reviews. Below we reported the graph for the body.
 {: .left}
 
 ![body tags](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/body%20tags.png)
 {: .center}
 
-
+The differences between categories are more evident in the headline's graph but still, they are really minor.
+Comparing the two graphs, it can be seen that in the headlines is rarer to find verbs. As we forecasted, "Noun" and "adjectives" represents the most famous tags.
 {: .left}
+
+
 
 ![amazon most common words](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/amazon_cloudword_most_common_word.png)
 {: .center}
