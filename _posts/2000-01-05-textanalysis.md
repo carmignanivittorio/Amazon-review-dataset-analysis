@@ -7,6 +7,7 @@ color: white
 ## Text Analysis
 Let's see what we have discoverd about Amazon's reviewers and reviews.
 
+<br>
 ### Lexical Diversity
 We ere interested in seeing the lexical richness of the categories' reviews. Below you can see our plot of the lexical diversity.
 {: .left}
@@ -18,6 +19,7 @@ We ere interested in seeing the lexical richness of the categories' reviews. Bel
 Regarding the difference between headline and body, we can see that there is a big gap. This means that reviewers usually use the same words to do the review's body, while they are more "creative" in the title.
 {: .left}
 
+<br>
 ### Tags
 {: .center}
 
@@ -31,6 +33,7 @@ The differences between categories are more evident in the headline's graph but 
 Comparing the two graphs, it can be seen that in the headlines is rarer to find verbs. As we forecasted, "Noun" and "adjectives" represents the most famous tags.
 {: .left}
 
+<br>
 ### Collocations
 {: .center}
 
@@ -42,6 +45,7 @@ We had 2 goals in this section.
 ![body tags](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/bigrams.PNG)
 {: .center}
 
+<br>
 ### TF-IDF vs Common words
 {: .center}
 
@@ -118,6 +122,7 @@ As we expect, the TF-IDF works far better. In fact, it can catch all the brands,
 We did the same also for star rating, but it did not work well. Therefore we tried to do another duel.
 {: .left}
 
+<br>
 ### TF-IDF body vs TF-IDF headlines
 {: .center}
 
@@ -148,6 +153,7 @@ It is pretty clear that the headline contains more "important" words. For exampl
 * "Wonderful", "comforting" for four stars.
 * "Unmissable","awesomeness","unbeatable" for five stars.
 
+<br>
 ### Similarity between categories
 {: .center}
 
@@ -160,6 +166,7 @@ In this section, we want to see which is the similarity between the different ca
 The matrix does not show really interesting results. Most of the strong relations are between the digital and the classic version of the same category.
 {: .left}
 
+<br>
 ## Sentimental Analysis
 {: .center}
 
