@@ -42,7 +42,12 @@ Below, the network is shown:
 {: .letft}
 ![subnetwork](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/Subnetwork.png)
 {: .center}
-
+The network has **6681** nodes and **6691** edges. Below, the degree distribution is shown:
+{: .letft}
+![subnetwork](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/SubCustomerProductDegreeDistribution.png)
+{: .center}
+All these three networks satisfy the *Friendship paradox* with rate higher the 95 per cent.
+{: .letft}
 ![customer degree network](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/CustomerDegreeNetwork.png)
 {: .center}
 
