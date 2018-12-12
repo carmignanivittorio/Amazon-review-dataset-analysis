@@ -223,9 +223,15 @@ This graph is more detailed. In particular, it can be observed that most of the 
 <br>
 
 ### Funny measurements
+{: .center}
 <br>
 
-
-
+In the notebook we performed some funny measurements like: worst/best product, happiest/saddest reviewer, best days/months. We report here the graphs about the best days:
+{: .left}
+<br>
 ![sentiment headlines](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/sentiment%20headlines.png)
 {: .center}
+
+* Most of the times, the sentiment has risen together with the year. This is probably because people got used to buying and review products. Therefore they feel more comfortable throughout the years.
+* There are no many variations looking at the days among the different categories. There are some exceptions. For example in Video, Wednesday is a really good day; in contrast, Sunday is not.
+{: .left}
