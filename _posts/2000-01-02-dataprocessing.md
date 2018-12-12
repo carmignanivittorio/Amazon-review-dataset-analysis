@@ -28,7 +28,7 @@ We decided to use 8 of the 15 columns for our project which are :
 1. review_body
 1. review_date.
 
-Because there are many categories in our data-set we decided to exclude some as the number of the reviews wouldn't contribute to our project analysis. In the below graphs we show some of the basic statistics we where able to conduct with the data we obtained.
+Because there are many categories in our data-set we decided to exclude some as the number of the reviews wouldn't contribute to our project analysis. In the below graphs we show some of the basic statistics we were able to conduct with the data we obtained.
 
 <br>
 
@@ -39,14 +39,14 @@ The graph below shows the distribution of the reviews based on the category of t
 {: .center}
 <br>
 
-This graph shows the Star-Rating of the reviews as seen by the customers. Most of the reviews tend to get positive rating and more than one million reviews have been rated with 5 stars. That means that the reviews where useful for those who read them.
+This graph shows the Star-Rating of the reviews as seen by the customers. Most of the reviews tend to get a positive rating and more than one million reviews have been rated with 5 stars. That means that the reviews were useful for those who read them.
 {: .center}
 
 ![star-rating_graph](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/star_rating.png)
 {: .center}
 <br>
 
-And finally in the graph below we represent a heatmap that takes the Star-Rating and the Categories and finds correlations between those 2. As we can conclude, the "Video-DVD" category has the most and more positive rating reviews.
+And finally, in the graph below we represent a heat-map that takes the Star-Rating and the Categories and finds correlations between those 2. As we can conclude, the "Video-DVD" category has the most and more positive rating reviews.
 {: .center}
 <br>
 ![Correlation between Categories and Star-Rating](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/Correlation%20between%20Categories%20and%20Star-Rating.png)
