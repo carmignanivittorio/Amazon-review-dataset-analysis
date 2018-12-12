@@ -52,7 +52,7 @@ This is wordlcloud taking into account all the reviews (body+headline) using the
 ![amazon most common words](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/amazon_cloudword_most_common_word.png)
 {: .center}
 
-Let's start drawing...
+Let's start drawing now...
 
 ![baby](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/baby.png)
 {: .center}
@@ -114,6 +114,18 @@ Let's start drawing...
 ![wireless](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/wireless.png)
 {: .center}
 
+As we expect, the TF-IDF works far better. In fact, it can catch all the brands, people relate to the respective category. This is really clear within the category Camera where: in TF-IDF you can find Nikon, Manfrotto, Fujifilm, Lowepro etc. While in the most common words are not recognizable. In contrast, in the most common words wordClouds appear a lot of adjectives which are common with all the categories such as great, good, love etc.
+We did the same also for star rating, but it did not work well. Therefore we tried to do another duel.
+{: .left}
+
+### TF-IDF body vs TF-IDF headlines
+{: .center}
+
+In this section we are going see where can we find the most important words: headline vs body. It is reasonable to think that the headline will give better results.
+
+Let's start drawing now...
+{: .left}
+
 ![1_5](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/1.5_stars.png)
 {: .center}
 
@@ -128,6 +140,13 @@ Let's start drawing...
 
 ![5_5](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/5.5_stars.png)
 {: .center}
+
+It is pretty clear that the headline contains more "important" words. For example:
+* "Rubbish", **"Total_waste_money"** for one star (we would underline the collocation).
+* "Baaaaaad", bleh" for two stars.
+* For three stars the results are not really clear, this should be the neutral evaluation.
+* "Wonderful", "comforting" for four stars.
+* "Unmissable","awesomeness","unbeatable" for five stars.
 
 ![similarity matrix](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/similarity_matrix.png)
 {: .center}
