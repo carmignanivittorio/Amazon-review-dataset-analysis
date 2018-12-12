@@ -118,18 +118,38 @@ Below, the top 50 products are shown:
 ![product degree network](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/TopProduct.png)
 The result of this analysis reflects what we already found in the category analysis. Indeed, the top categories are the entertainment ones. Even though we already knew the top categories, this analysis revealed that there is a remarkable difference between them. This means the top category, Video DVD, has significantly more reviews than the second one, Music. The same is recursively respected among the other ones. Looking at the product's result, it confirms what category analysis suggested. In fact, almost all of the top 50 products correspond to DVD. An interesting point is that only two very famous mobile apps like Candy Crush Saga and Facebook, appear in the top 50. On the whole, we understood that customers are really in love with movies and DVD.
 {: .letft}
+### Subnetwork analysis
+Due to the large size of the network, we were not able to proceed the analysis using the projection based on the whole network. It requires an infeasible amount of time. Consequently, we decided to build the projection related to the [subnetwork](#Subnetwork). Throught this subnetwork's projection, we will study the centrality, assorativity and community property of the network.
+
+Below, the network is shown:
+{: .letft}
 ![product degree network](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/ProductDegreeNetwork.png)
 {: .center}
-
+The network has **134** nodes and **171** edges. Below, the degree distribution is shown:
+{: .letft}
+![subnetwork](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/SubProductDegreeDistribution.png)
+{: .center}
+The degree distribution follows the usual shape. Looking at the graph, it shows that there are some hub nodes in the middle which probably represent the products with more reviews.
+### Connectivity analysis
+In this section, we are interested in finding the centrality properties of the network. To do an accurate study, we will perform four different centrality analysis: degree centrality, closeness centrality, betweenness centrality and eigenvector centralities. By doing this, we want to understand if there are products more connected than others, as well as if there are some interesting relationship between the most connected and the isolated ones.
+#### Degree centrality
+This measure reflects what we have already seen before. In summary, it can be seen that there are more products which are poorly connected because they have been reviewed by customers which have reviewed only that product. Meanwhile, the products with higher degree correspond to the ones which have been reviewed by more active customers. With active we mean that they have reviewed more than one product.
+#### Closeness centrality
+{: .letft}
 ![product closeness](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/ProductClosenessNetwork.png)
 {: .center}
-
+This measure seems very similar to the customer network's one. The graph and the distribution suggest that there two main groups. The former is composed by nodes with a smaller closeness centrality. The latter is characterized by a higher value of closeness centrality. As in the customer network, we suppose that the first group represents the products with reviews made by inactive customers, whereas, the second one gathers the products reviewed by the active ones.
+#### Betweenness centrality
+{: .letft}
 ![product betweeness network](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/ProductBetweennessNetwork.png)
 {: .center}
-
+The graph and the distribution confirmed what we saw in the degree and closeness centralities. Indeed, the nodes with higher centralities have a higher betweenness. This is due to the fact that since they are more connected, they are more likely to work as a bridge between the shortest path of the other two nodes.
+#### Eigenvector centrality
+{: .letft}
 ![product eigenvector network](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/ProductEigenvectorNetwork.png)
 {: .center}
-
+The eigenvector centrality enforces what we have seen in the previous one. It can be seen that the bigger nodes become even bigger, whereas, the smaller ones become even smaller. This is due to the eigenvector centrality's property.
+{: .letft}
 ![product louvain communities](https://raw.githubusercontent.com/carmignanivittorio/SocialGraphProject/master/img/ProductLouvainCommunities.png)
 {: .center}
 
